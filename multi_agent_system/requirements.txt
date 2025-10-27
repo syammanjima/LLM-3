@@ -1,0 +1,25 @@
+# Multi-Agent Coding System - Required Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# LangGraph for agent orchestration
+langgraph>=0.0.30
+
+# OpenAI API
+openai>=1.10.0
+
+# Testing framework
+pytest>=7.4.0
+
+# Optional: Better terminal output
+rich>=13.7.0
+
+# Optional: Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: Type checking
+mypy>=1.7.0
